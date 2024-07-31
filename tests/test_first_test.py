@@ -19,5 +19,4 @@ def test_title():
 
         assert driver.title == "Swag Labs"
        
-        driver
         driver.quit()
