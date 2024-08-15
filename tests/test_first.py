@@ -1,9 +1,8 @@
+# import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-import pytest
 
-@pytest.fixture
+# @pytest.fixture() DO NOT USE FIXTURES WITH A TEST
 def test_title():
         driver = webdriver.Firefox()
 
